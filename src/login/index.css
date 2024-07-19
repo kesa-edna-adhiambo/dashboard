@@ -1,16 +1,18 @@
-.upcycle {
-    width: 150px;
-}
 
 .login-container {
     padding: 20px;
-    background: white;
+    background:  #496307;
     border-radius: 5px;
+    width: 30%;
+    margin-left: 34%;
+    margin-top: 55px;
+    
 }
+
 
 .container{
     display: grid;
-    margin-left: 38%;
+    margin-left: 10%;
 }
 
 h1{
@@ -23,16 +25,18 @@ h2{
     font-size: 40px;
 }
 
-h3{
+.text{
     color: #7DAB08;
-    font: medium;
+    text-decoration: none;
+    margin-top: 30px;
+
 }
 
 .sign-up{
     display: flex;
-    margin-left: 38%;
-    gap: 1%;
-    font-size: 28px;
+    margin-left: 20%;
+    gap: 2%;
+    font-size: 23px;
 
 }
 
@@ -44,7 +48,7 @@ label {
 }
 
 input {
-    width: 35%;
+    width: 80%;
     padding: 20px;
     border: 5px solid #F2E5DD;
     border-radius: 4px;
@@ -54,7 +58,7 @@ input {
 }
 
 button {
-    width: 15%;
+    width: 35%;
     padding: 10px;
     background-color: #070E50;
     color: white;
@@ -63,7 +67,7 @@ button {
     border-radius: 7px;
     cursor: pointer;
     margin-top: 30px;
-    margin-left:12%;
+    margin-left:26%;
    
 }
 

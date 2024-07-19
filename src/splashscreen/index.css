@@ -8,12 +8,15 @@ p{
     width: 25%;
     object-fit: cover;
     place-items: center;
-    margin-right: 50px;
+    margin-right: 50px;  
+
 }
 
 .logo-section{
     text-align: center;
+    
 }
+
 
 @media screen and (min-width:280px) and (max-width:300px){
 

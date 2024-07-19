@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css'; 
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
 
-        <div>
+        <div id='login-section'>
         <div className='login-container'>
 
             <h1>Welcome Back</h1>
@@ -25,14 +26,14 @@ const Login = () => {
 
             </form>
 
-        </div>
-
-        <div className='sign-up'>
+            <div className='sign-up'>
                 
-        <h4>Don't have an account? </h4>
-        <h3>Sign Up</h3>
+             <h4>Don't have an account? </h4>
+             <Link to="/sign-up" className='text'><b>Sign Up</b></Link>
+        
+            </div>
 
-         </div>
+        </div>
 
          </div>
     );
